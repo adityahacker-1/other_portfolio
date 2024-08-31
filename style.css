@@ -1,0 +1,98 @@
+.container-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 0%;
+    display: block;
+
+}
+
+.beach_img{
+    width: 100%;
+    height: 900px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+
+.hero{
+    width: 200px; /* Adjust the size of the circle */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.whole_container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.box{
+    display: grid;
+    grid-template-columns: 300px 400px;
+    grid-template-rows: 300px 400px;
+    gap:30px;
+}
+
+.text{
+    margin-top: 60px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.cute{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.color-change{
+    color: #66bfbf;
+}
+
+
+.button {
+    display: inline-block; /* Makes the anchor behave like a button */
+    padding: 10px 20px;    /* Adds some padding to the button */
+    font-size: 16px;       /* Sets the font size */
+    color: white;          /* Text color */
+    background-color: #007BFF; /* Background color */
+    border: none;          /* Removes default border */
+    border-radius: 5px;    /* Adds rounded corners */
+    text-align: center;    /* Centers the text */
+    text-decoration: none; /* Removes underline from the text */
+    cursor: pointer;       /* Changes the cursor to pointer on hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.last{
+    background-color: antiquewhite;
+}
