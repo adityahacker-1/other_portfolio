@@ -96,3 +96,45 @@ hr{
 .last{
     background-color: antiquewhite;
 }
+
+@media (max-width:500px){
+    .beach_img{
+        height: 700px;
+        width: 100%;
+    }
+
+    .whole_container{
+        height: 700px;
+        
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    .image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .box{
+        display: grid;
+        grid-template-columns: 150px 250px;
+        grid-template-rows: 200px 200px;
+        gap:35px;
+    }
+
+    .text{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .second-section{
+        height: 700px;
+    }
+
+    .second-last{
+        height: 500px;
+    }
+}
