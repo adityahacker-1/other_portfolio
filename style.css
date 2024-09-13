@@ -97,6 +97,23 @@ hr{
     background-color: antiquewhite;
 }
 
+
+
+.my-skills{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 220px ;
+    
+}
+.main-text{
+    grid-column: span 2;
+}
+  
+
+
+  
+
+
 @media (max-width:500px){
     .beach_img{
         height: 700px;
@@ -126,6 +143,7 @@ hr{
     }
 
     .text{
+        
         margin-top: 10px;
         margin-bottom: 10px;
     }
