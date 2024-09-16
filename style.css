@@ -50,7 +50,7 @@ hr{
 }
 .box{
     display: grid;
-    grid-template-columns: 300px 400px;
+    grid-template-columns: 300px 550px;
     grid-template-rows: 300px 400px;
     gap:30px;
 }
@@ -114,7 +114,7 @@ hr{
   
 
 
-@media (max-width:500px){
+@media (max-width:775px){
     .beach_img{
         height: 700px;
         width: 100%;
@@ -129,6 +129,10 @@ hr{
         font-size: 4rem;
     }
 
+    li{
+        font-size: 12px;
+    }
+
     .image{
         width: 150px;
         height: 150px;
@@ -138,6 +142,72 @@ hr{
     .box{
         display: grid;
         grid-template-columns: 150px 250px;
+        grid-template-rows: 250px 200px;
+        gap:35px;
+    }
+
+    .text{
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .second-section{
+        height: 700px;
+    }
+
+    .second-last{
+        height: 500px;
+    }
+
+    .my-skills{
+        display: grid;
+        grid-template-columns: 140px 140px;
+        grid-template-rows: 90px 220px ;
+        
+    }
+
+    .box p{
+        font-size: 13px;
+    }
+
+    /*Skills section*/
+    h3{
+        font-size: 1rem;
+    }
+}
+
+
+/* width bigger than mobile and smaller than laptop*/
+
+@media (max-width:900px) and (min-width: 775px){
+    .beach_img{
+        height: 700px;
+        width: 100%;
+    }
+
+    .whole_container{
+        height: 700px;
+        
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    li{
+        font-size: 14px;
+    }
+
+    .image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .box{
+        display: grid;
+        grid-template-columns: 200px 400px;
         grid-template-rows: 200px 200px;
         gap:35px;
     }
@@ -154,5 +224,21 @@ hr{
 
     .second-last{
         height: 500px;
+    }
+
+    .my-skills{
+        display: grid;
+        grid-template-columns: 160px 160px;
+        grid-template-rows: 100px 220px ;
+        
+    }
+
+    .box p{
+        font-size: 14px;
+    }
+
+    /*Skills section*/
+    h3{
+        font-size: 1.5rem;
     }
 }
